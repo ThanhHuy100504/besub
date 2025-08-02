@@ -41,7 +41,7 @@
 }
 
 
-/* Pháº§n náº¡p tiá»n */
+/* Phần nạp tiền */
 #banking .list-banks {
   display: none;
 }
@@ -116,3 +116,4 @@
 }
 .radio.radio-server.stopped .server-status {
   background-color: #a3a3a3;}
+  
