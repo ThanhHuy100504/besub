@@ -168,12 +168,7 @@
 
 /* Trạng thái đang chọn */
 .payment-widget.active {
-    background: #28a745; /* Xanh đậm Bootstrap Success */
     color: #fff;
     border-color: #1e7e34;
     box-shadow: 0 4px 12px rgba(40,167,69,0.3);
-}
-.payment-widget.active:hover {
-    background: #218838; /* Xanh đậm hơn khi hover */
-    box-shadow: 0 6px 14px rgba(40,167,69,0.4);
 }
