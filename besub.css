@@ -50,43 +50,51 @@
 /* Bảng thông tin thanh toán */
 #banking .table-payment-info {
     width: 100%;
-    background-color: #fdfdfd;
-    border-radius: 8px;
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.05);
+    background-color: #fff;
+    border-radius: 10px;
+    border-collapse: separate; /* Để bo góc hiển thị đẹp */
+    border-spacing: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    overflow: hidden;
 }
 
+/* Ô bảng */
 #banking .table-payment-info td {
-    padding: 12px 14px;
-    border: 1px solid #e0e0e0;
-    text-align: left;
+    padding: 14px 16px;
     font-size: 15px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
 }
 
+/* Ô tiêu đề bên trái */
 #banking .table-payment-info td:first-child {
     background-color: #f7f9fa;
     font-weight: 600;
     color: #555;
+    width: 35%;
 }
 
+/* Bỏ đường kẻ ở hàng cuối */
+#banking .table-payment-info tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hover cả hàng */
 #banking .table-payment-info tr:hover {
-    background-color: #eef5ff;
+    background-color: #f9fcff;
 }
 
 /* Nút copy */
 #banking .btn-copy {
     cursor: pointer;
-    color: #007bff;
+    color: #666;
     margin-left: 8px;
     transition: color 0.2s ease;
+    vertical-align: middle;
 }
 
 #banking .btn-copy:hover {
-    color: #0056b3;
-}
-
-/* Chữ trong bảng */
-#banking .table-payment-info span {
-    color: #333;
+    color: #007bff;
 }
 
 /* Ghi chú thanh toán */
@@ -105,9 +113,9 @@
 /* Bóng mờ cho portlet body */
 .kt-portlet__body {
     background: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 
-        0 2px 6px rgba(0,0,0,0.05), 
+        0 4px 8px rgba(0,0,0,0.05), 
         0 8px 20px rgba(0,0,0,0.08);
     padding: 16px;
 }
