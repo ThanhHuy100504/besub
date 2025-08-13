@@ -100,7 +100,7 @@
 /* Ghi chú thanh toán */
 #banking .payment-note {
     background: #fff; /* Đồng bộ nền trắng với bảng */
-    border: 1px solid #d63384; /* Viền nhạt giống bảng */
+    border: 1px solid #f0f0f0; /* Viền nhạt giống bảng */
     padding: 14px 16px;
     border-radius: 10px;
     color: #333;
@@ -122,6 +122,7 @@
 /* Phần thông tin máy chủ */
 .server-info {
   background-color: #f9f9f9;
+  border: 1px solid #d63384;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 
@@ -138,7 +139,7 @@
 .server-info.server_6-visible br {
   display: block;
   margin-bottom: 6px;
-  content: "";
+  content: "Default";
 }
 .server-info .text-max {
   display: inline-block;
