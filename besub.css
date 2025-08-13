@@ -148,6 +148,13 @@
     object-fit: contain;     /* không méo ảnh */
     border-radius: 6px;
 }
+/* Responsive: thu nhỏ ảnh QR trên màn nhỏ */
+@media (max-width: 480px) {
+    #banking .qr-code .qr-image img {
+        width: 180px;
+        height: 180px;
+    }
+}
 /* Phần thông tin máy chủ */
 .server-info {
   background-color: #f9f9f9;
