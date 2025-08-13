@@ -43,18 +43,25 @@
 
 /* Phần nạp tiền */
 /* Ẩn danh sách ngân hàng mặc định */
+/* Ẩn danh sách ngân hàng mặc định */
 #banking .list-banks {
     display: none;
+}
+
+/* Bọc ngoài bảng để bo góc mượt */
+#banking .table-wrapper {
+    border-radius: 8px;
+    overflow: hidden; /* Che góc vuông */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Bảng thông tin thanh toán */
 #banking .table-payment-info {
     width: 100%;
-    border-collapse: collapse; /* Gộp viền gọn hơn */
-    background-color: #fdfdfd;
-    border-radius: 8px;
-    overflow: hidden; /* Bo góc cả bảng */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-collapse: collapse; /* Gọn viền */
+    background-color: #ffffff;
 }
 
 #banking .table-payment-info td {
@@ -68,10 +75,11 @@
     background-color: #f7f9fa;
     font-weight: 600;
     color: #555;
+    width: 35%;
 }
 
 #banking .table-payment-info tr:hover {
-    background-color: #eef5ff;
+    background-color: #e0fbe4; /* Màu đồng bộ widget thanh toán */
 }
 
 /* Nút copy */
@@ -80,6 +88,7 @@
     color: #007bff;
     margin-left: 8px;
     transition: color 0.2s ease;
+    vertical-align: middle;
 }
 
 #banking .btn-copy:hover {
