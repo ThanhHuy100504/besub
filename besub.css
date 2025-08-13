@@ -100,7 +100,7 @@
 /* Ghi chú thanh toán */
 #banking .payment-note {
     background: #fff; /* Đồng bộ nền trắng với bảng */
-    border: 1px solid #f0f0f0; /* Viền nhạt giống bảng */
+    border: 1px solid #d63384; /* Viền nhạt giống bảng */
     padding: 14px 16px;
     border-radius: 10px;
     color: #333;
