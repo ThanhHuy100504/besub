@@ -173,11 +173,3 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* Trạng thái đang chọn */
-.payment-widget.active {
-    background: #28a745; /* Xanh lá đậm Bootstrap */
-    color: #fff;
-    border-color: #1e7e34;
-    box-shadow: 0 4px 14px rgba(40,167,69,0.3);
-}
-
