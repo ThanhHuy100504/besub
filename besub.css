@@ -123,3 +123,8 @@
   border-radius: 15px;
   background: #ddd;
 }
+.payment-widget.active
+{
+  background: #7e6be4;
+  color: #fff;
+}
