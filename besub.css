@@ -119,6 +119,35 @@
         0 8px 20px rgba(0,0,0,0.08);
     padding: 16px;
 }
+/* Phần mã QR Code  */
+#banking .qr-code {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    padding: 16px;
+    max-width: 600px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+/* Khung ảnh QR (giữ tỉ lệ, không méo) */
+#banking .qr-code .qr-image {
+    display: inline-block;
+    background: #f7f9fa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+#banking .qr-code .qr-image img {
+    display: block;
+    width: 220px;            /* tùy chỉnh theo ảnh bạn trả về */
+    height: 220px;           /* giữ hình vuông */
+    object-fit: contain;     /* không méo ảnh */
+    border-radius: 6px;
+}
 /* Phần thông tin máy chủ */
 .server-info {
   background-color: #f9f9f9;
