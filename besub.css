@@ -115,5 +115,11 @@
   font-weight: bold;
 }
 .radio.radio-server.stopped .server-status {
-  background-color: #a3a3a3;}
-  
+  background-color: #a3a3a3;
+}
+/* Phần widget thanh toán */
+.payment-widget {
+  background: #ddd;
+  border-radius: 15px;
+  background: #ddd;
+}
