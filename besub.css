@@ -156,7 +156,7 @@
 /* Widget thanh toán */
 .payment-widget {
     background: #e0fbe4; /* Xanh pastel */
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 12px 16px;
     cursor: pointer;
     transition: all 0.25s ease;
@@ -164,17 +164,20 @@
     color: #333;
     font-weight: 500;
     text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 /* Hiệu ứng hover */
 .payment-widget:hover {
     background: #c9f5d3;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* Trạng thái đang chọn */
 .payment-widget.active {
+    background: #28a745; /* Xanh lá đậm Bootstrap */
     color: #fff;
     border-color: #1e7e34;
-    box-shadow: 0 4px 12px rgba(40,167,69,0.3);
+    box-shadow: 0 4px 14px rgba(40,167,69,0.3);
 }
+
