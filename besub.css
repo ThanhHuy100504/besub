@@ -125,8 +125,6 @@
     border: 1px solid #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-    padding: 16px;
-    max-width: auto;
     margin: 20px auto 0;
     text-align: center;
 }
